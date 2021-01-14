@@ -1,0 +1,21 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP Conn_02x20_Odd_Even_Female
+D Generic connector, double row, 02x20, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)
+K connector
+F ~
+$ENDCMP
+#
+$CMP Conn_02x20_Odd_Even_Male
+D Generic connector, double row, 02x20, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)
+K connector
+F ~
+$ENDCMP
+#
+$CMP SW_MEC_5E
+D MEC 5E single pole normally-open tactile switch
+K switch normally-open pushbutton push-button
+F https://www.mouser.bg/datasheet/2/15/SKHH-1370651.pdf
+$ENDCMP
+#
+#End Doc Library
