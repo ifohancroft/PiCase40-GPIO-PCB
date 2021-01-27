@@ -20,10 +20,10 @@ To make things easier to see, let's show each different type of dimensions on th
 
 ![Informative PCB Dimensions](TechnicalDrawings/Dimensions-Informative.png)
 
- - H: Width and Depth of the body of a typical tactile switch.
- - D: Depth of the body of a typical pin header (both male and female)
- - C: Width of the body of a typical pin header (both male and female)
- - V: V is an exception, as it doesn't show a component's dimension, instead it shows how far the vertical center of the male header is, from the grid's 0,0. This is to help you center everything.
+     - H: Width and Depth of the body of a typical tactile switch.
+     - D: Depth of the body of a typical pin header (both male and female)
+     - C: Width of the body of a typical pin header (both male and female)
+     - V: V is an exception, as it doesn't show a component's dimension, instead it shows how far the vertical center of the male header is, from the grid's 0,0. This is to help you center everything.
 
  - Red (Exact Dimensions): Dimensions that must be exactly as shown, or things won't fit.
 
