@@ -8,9 +8,26 @@ A replacement PCB for Pi Case 40, that fixes the reversed GPIO Issue.
  - PCB Reference.FCStd is a FreeCAD file containing the PCB outline and component placements, that can be used as a reference later, when creating the PCB outline and placing the components in KiCAD.
  - Technical drawings showing the PCB dimensions, can be found under Images/
 
-In-case you want to modify this PCB, or create a new one from scratch, there are certain important sizes you must know about:
+In-case you want to modify this PCB, or create a new one from scratch, there are certain important dimensions you must know about:
 
 ![PCB Dimensions](TechnicalDrawings/Dimensions.png)
+
+As you can see, there are 4 different types of dimensions, marked in black, red, green and blue.
+
+To make things easier to see, let's show each different type of dimensions on their own, when talking about them:
+
+ - Black (Informative Dimentions): You can't really change those, as they show typical component sizes, however some other dimensions may depend on them.
+
+![Informative PCB Dimensions)(TechnicalDrawings/Dimensions-Informative.png)
+
+        - H: Width and Depth of the body of a typical tactile switch.
+        - D: Depth of the body of a typical pin header (both male and female)
+        - C: Width of the body of a typical pin header (both male and female)
+        - V: V is an exception, as it doesn't show a component's dimension, instead it shows how far the vertical center of the male header is, from the grid's 0,0. This is to help you center everything.
+
+ - Red (Exact Dimensions): Dimensions that must be exactly as shown, or things won't fit.
+
+![Exact PCB Dimensions)(TechnicalDrawings/Dimensions-Exact.png)
 
 ## Modifying the PCB or creating a new from scratch
 
