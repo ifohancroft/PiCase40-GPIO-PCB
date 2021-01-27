@@ -56,10 +56,6 @@ Green (Loose Dimensions) - Dimensions that you can set to whatever you like (wit
 
 All corners are 135 degrees, and the length of all of them except for the two on top around the top mount hole is 1.5mm.
 
-## Modifying the PCB or creating a new from scratch
-
-Whether you want to 
-
 ## TODO
 
 1. Update the PCB outline from the FreeCAD file.
