@@ -10,7 +10,7 @@ A replacement PCB for Pi Case 40, that fixes the reversed GPIO Issue.
 
 In-case you want to modify this PCB, or create a new one from scratch, there are certain important sizes you must know about:
 
-![PCB Dimensions](Images/Dimensions.png)
+![PCB Dimensions](Technical Drawings/Dimensions.png)
 
 ## Modifying the PCB or creating a new from scratch
 
