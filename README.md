@@ -62,7 +62,6 @@ Whether you want to
 
 ## TODO
 
-0. Finish setting up the README
 1. Update the PCB outline from the FreeCAD file.
 2. Check component placement again.
 3. Order a new PCB and hand solder it, to make sure it fits
