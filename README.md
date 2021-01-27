@@ -17,4 +17,4 @@ A replacement PCB for Pi Case 40, that fixes the reversed GPIO Issue.
 
 ## LICENSE
 
-Will explain it later today.
+Everything is released under CERN Open Hardware Licence Version 2 - Strongly Reciprocal, unless otherwise noted.
