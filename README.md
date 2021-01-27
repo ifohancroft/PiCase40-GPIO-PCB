@@ -16,17 +16,15 @@ As you can see, there are 4 different types of dimensions, marked in black, red,
 
 To make things easier to see, let's show each different type of dimensions on their own, when talking about them:
 
- - Black (Informative Dimentions): You can't really change those, as they show typical component sizes, however some other dimensions may depend on them.
-
+Black (Informative Dimentions): You can't really change those, as they show typical component sizes, however some other dimensions may depend on them.
 ![Informative PCB Dimensions](TechnicalDrawings/Dimensions-Informative.png)
 
-    - H: Width and Depth of the body of a typical tactile switch.
-    - D: Depth of the body of a typical pin header (both male and female)
-    - C: Width of the body of a typical pin header (both male and female)
-    - V: V is an exception, as it doesn't show a component's dimension, instead it shows how far the vertical center of the male header is, from the grid's 0,0. This is to help you center everything.
+ - H: Width and Depth of the body of a typical tactile switch.
+ - D: Depth of the body of a typical pin header (both male and female)
+ - C: Width of the body of a typical pin header (both male and female)
+ - V: V is an exception, as it doesn't show a component's dimension, instead it shows how far the vertical center of the male header is, from the grid's 0,0. This is to help you center everything.
 
- - Red (Exact Dimensions): Dimensions that must be exactly as shown, or things won't fit.
-
+Red (Exact Dimensions): Dimensions that must be exactly as shown, or things won't fit.
 ![Exact PCB Dimensions](TechnicalDrawings/Dimensions-Exact.png)
 
 ## Modifying the PCB or creating a new from scratch
