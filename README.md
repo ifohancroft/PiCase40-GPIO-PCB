@@ -2,9 +2,9 @@
 
 A replacement PCB for Pi Case 40, that fixes the reversed GPIO Issue.
 
- - The PCB has been made with KiCAD and is located under PiCase40/. It includes all the schematic symbols, footprints and 3D shapes it uses, in project-specific libraries, located under Library/
- - PCBReference.FCStd is a FreeCAD file containing the PCB outline and component placements, that can later be used as a reference, when creating the PCB outline and placing the components, in KiCAD. It is also the file, used to create the technical drawings.
- - Technical drawings showing the PCB dimensions, can be found under Images/
+ - The PCB has been made with [KiCAD](https://kicad.org/) and is located under PiCase40/. It includes all the schematic symbols, footprints and 3D shapes it uses, in project-specific libraries, located under Library/
+ - PCBReference.FCStd is a FreeCAD file containing the PCB outline and component placements, that can later be used as a reference, when creating the PCB outline and placing the components in KiCAD. It is also the file, used to create the drawings for the [Tutorial](#Tutorial).
+ - TutorialDrawings contains the images for the [Tutorial](#Tutorial)
 
 ## TODO
 
