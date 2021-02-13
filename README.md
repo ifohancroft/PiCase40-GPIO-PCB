@@ -61,5 +61,3 @@ Green (Loose Dimensions) - Dimensions that you can set to whatever you like (wit
  - T: Top mount hole center to top board edge - 2.5mm. As long as you leave some lip around the hole, you can have it couple of cm if you want, but if you have the slanted edge on the right, keep in mind U.
 
 All corners are 135 degrees, and the length of all of them except for the two on top around the top mount hole is 1.5mm.
-
-Just testing something
