@@ -12,6 +12,8 @@ A replacement PCB for Pi Case 40, that fixes the reversed GPIO Issue.
 2. Buy a Raspberry Pi to test the PCB?
 3. Figure out a way to make the PCB include the male header riser, so it can be factory assembled by the board house.
 
+## Tutorial
+
 In-case you want to modify this PCB, or create a new one from scratch, there are certain important dimensions you must know about:
 
 ![PCB Dimensions](TechnicalDrawings/Dimensions.png)
