@@ -2,11 +2,15 @@
 
 A replacement PCB for Pi Case 40, that fixes the reversed GPIO Issue.
 
-**Not yet ready or tested**
-
  - The PCB has been made with KiCAD and is located under PiCase40/. It includes all the schematic symbols, footprints and 3D shapes it uses, in project-specific libraries, located under Library/
  - PCBReference.FCStd is a FreeCAD file containing the PCB outline and component placements, that can later be used as a reference, when creating the PCB outline and placing the components, in KiCAD. It is also the file, used to create the technical drawings.
  - Technical drawings showing the PCB dimensions, can be found under Images/
+
+## TODO
+
+1. Order a new PCB and hand solder it, to make sure it fits
+2. Buy a Raspberry Pi to test the PCB?
+3. Figure out a way to make the PCB include the male header riser, so it can be factory assembled by the board house.
 
 In-case you want to modify this PCB, or create a new one from scratch, there are certain important dimensions you must know about:
 
@@ -55,15 +59,3 @@ Green (Loose Dimensions) - Dimensions that you can set to whatever you like (wit
  - T: Top mount hole center to top board edge - 2.5mm. As long as you leave some lip around the hole, you can have it couple of cm if you want, but if you have the slanted edge on the right, keep in mind U.
 
 All corners are 135 degrees, and the length of all of them except for the two on top around the top mount hole is 1.5mm.
-
-## TODO
-
-1. Update the PCB outline from the FreeCAD file.
-2. Check component placement again.
-3. Order a new PCB and hand solder it, to make sure it fits
-4. Buy a Raspberry Pi to test the PCB?
-5. Prettify the footprints
-6. Figure out a way to make the PCB include the male header riser, so it can be factory assembled by the board house.
-7. Update the README
-
-trest
