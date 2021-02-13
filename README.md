@@ -3,7 +3,7 @@
 A replacement PCB for Pi Case 40, that fixes the reversed GPIO Issue.
 
  - The PCB has been made with [KiCAD](https://kicad.org/) and is located under PiCase40/. It includes all the schematic symbols, footprints and 3D shapes it uses, in project-specific libraries, located under Library/
- - PCBReference.FCStd is a FreeCAD file containing the PCB outline and component placements, that can later be used as a reference, when creating the PCB outline and placing the components in KiCAD. It is also the file, used to create the drawings for the [Tutorial](#Tutorial).
+ - PCBReference.FCStd is a [FreeCAD](https://www.freecadweb.org/) file containing the PCB outline and component placements, that can later be used as a reference, when creating the PCB outline and placing the components in KiCAD. It is also the file, used to create the drawings for the [Tutorial](#Tutorial).
  - TutorialDrawings contains the images for the [Tutorial](#Tutorial)
 
 ## TODO
@@ -16,14 +16,14 @@ A replacement PCB for Pi Case 40, that fixes the reversed GPIO Issue.
 
 In-case you want to modify this PCB, or create a new one from scratch, there are certain important dimensions you must know about:
 
-![PCB Dimensions](TechnicalDrawings/Dimensions.png)
+![PCB Dimensions](TutorialDrawings/Dimensions.png)
 
 As you can see, there are 4 different types of dimensions, marked in black, red, green and blue.
 
 To make things easier to see, let's show each different type of dimensions on their own, when talking about them:
 
 Black (Informative Dimentions) - You can't really change those, as they show typical component sizes, however some other dimensions may depend on them:
-![Informative PCB Dimensions](TechnicalDrawings/Dimensions-Informative.png)
+![Informative PCB Dimensions](TutorialDrawings/Dimensions-Informative.png)
 
  - H: Width and Depth of the body of a typical tactile switch.
  - D: Depth of the body of a typical pin header (both male and female)
@@ -31,7 +31,7 @@ Black (Informative Dimentions) - You can't really change those, as they show typ
  - V: V is an exception, as it doesn't show a component's dimension, instead it shows how far the vertical center of the male header is, from the grid's 0,0. This is to help you center everything.
 
 Red (Exact Dimensions) - Dimensions that must be exactly as shown, or things won't fit:
-![Exact PCB Dimensions](TechnicalDrawings/Dimensions-Exact.png)
+![Exact PCB Dimensions](TutorialDrawings/Dimensions-Exact.png)
 
  - B: Horizontal center to center distance of the mount holes - 58mm. Same as the center to center distance of the Raspberry Pi 4 mount holes and Pi 40 Case mount posts.
  - F: Horizontal center to center distance between the mount holes and the female pin header - 29mm.
@@ -41,7 +41,7 @@ Red (Exact Dimensions) - Dimensions that must be exactly as shown, or things won
  - G: Vertical center to center distance between the female and male pin headers - 7mm.
 
 Blue (Restrictive Dimensions) - Dimensions that don't have to be as shown, but still have a limit as they depend on other dimentions and component placements:
-![Restrictive PCB Dimensions](TechnicalDrawings/Dimensions-Restrictive.png)
+![Restrictive PCB Dimensions](TutorialDrawings/Dimensions-Restrictive.png)
 
  - A: Main mount holes diameter - 4mm. Must be between 4mm (bottom case mount posts' inner diameter) and 6mm (bottom case mount posts' outer diameter), so the PCB rests on the the posts, but allows the raised lip around the screw holes to go through.
  - E: Female header center to bottom board edge - 5mm. Must be between 5mm (half the thickness of a typical female pin header (dimension D:) + about 2.5mm for its SMD pads and some wiggle room) and 7mm as the inner board wall is 7mm away.
@@ -55,7 +55,7 @@ Blue (Restrictive Dimensions) - Dimensions that don't have to be as shown, but s
  - M: Left mount center center to left board edge - 4mm. It must be more than half of A, to allow for some lip around the screw hole, but not more than 5mm as this is where the inside of the left case wall starts. Warning: If not the same as N, it would shift your board's horizontal center, making it difficult to center the board and position components relative to the center, without you having to find the new one yourself.
 
 Green (Loose Dimensions) - Dimensions that you can set to whatever you like (within reason) as every board edge or Pi component that is tall enough to interfere, are at least a couple of cm away:
-![Loose PCB Dimensions](TechnicalDrawings/Dimensions-Loose.png)
+![Loose PCB Dimensions](TutorialDrawings/Dimensions-Loose.png)
 
  - Q: Button center to top board edge - 5.5mm. As long as it's big enough to leave some lip around the switch body for its SMD pads, you can have it couple of cm if you like.
  - T: Top mount hole center to top board edge - 2.5mm. As long as you leave some lip around the hole, you can have it couple of cm if you want, but if you have the slanted edge on the right, keep in mind U.
