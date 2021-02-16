@@ -8,7 +8,7 @@ A replacement PCB for Pi Case 40, that fixes the reversed GPIO Issue.
 
 ## TODO
 
-1. Order a new PCB and hand solder it, to make sure it fits
+1. Hand-solder the new PCB iteration when it and the components arrive, to make sure it all fits.
 2. Buy a Raspberry Pi and a HAT to test the PCB?
 3. Figure out a way to make the PCB include the male header riser, so it can be factory assembled by the board house.
 
