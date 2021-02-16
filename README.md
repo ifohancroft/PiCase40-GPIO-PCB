@@ -7,6 +7,8 @@ A replacement PCB for Pi Case 40, that fixes the reversed GPIO Issue.
  - TutorialDrawings contains the images for the [Tutorial](#Tutorial)
  - A replacement GPIO sticker is located under Sticker/. sticker.svg is the source files, from it multi-sticker.svg is created by repeating the design and adding cut lines in-beteween. The green background is only for visibility while working and should be hidden before exporting. Finally, multi-sticker.png is the output file that should be used when creating an order. (Basically, the idea is that a single sticker is too small (height wise) for [StickerMule](https://www.stickermule.com/) to print. Also, I don't think their sticker sheets support transparent stickers, and they don't offer sample size purchases of them, but there is no need to pay €30 when all you need is one sticker. So, I created my own sticker sheet that can be ordered as one big transparent sticker and later cut to separate stickers.) 
 
+Unless otherwise noted, everything is released under CERN Open Hardware Licence Version 2 - Strongly Reciprocal.
+
 ## Placing an order
 
  - PCB: Instructions will be added later when it is finalized.
