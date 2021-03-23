@@ -35,19 +35,24 @@ TODO
 PCB TODO
 --------
 
-1. Hand-solder the new PCB iteration when it and the components arrive, to make sure it all fits.
-2. Buy a Raspberry Pi and a HAT to test the PCB?
-3. Figure out a way to make the PCB include the male header riser, so it can be factory assembled by the board house.
-4. Print a final and pretty version of the PCB adding the instructions used for that, to the README and mark the project as complete
+ 1. Wait for the components to arrive and hand-solder them on the current PCB iteration.
+ 2. Depending on the position of the headers relative to the case opening, make a riser PCB of the appropriate size.
+ 3. Order a riser PCB.
+ 4. Hand solder components and riser PCB onto the current PCB iteration
+ 5. See if there is a manifacturer who can print both PCBs as well as assemble them with manifacturer components or maybe come up with another design that doesn't require manual sordering
+ 6. Test manifacturer assembled PCB or order and test solderless variant for the male header or accept the fact that the PCB will inevitably require some manual soldering and call it done
+ 7. Order the final and pretty version of the PCB
+ 8. Maybe buy a Raspberry Pi and a HAT to test the PCB?
+ 9. Update the [Order a PCB](#order-a-pcb) section.
 
 Sticker TODO
 -------
 
-1. Wait for the sticker to arrive and make sure it fits.
+1. Order a new sticker iteration and test it.
+2. If the new sticker prints and fits well, update the [Order a Sticker](#order-a-sticker) and the [Modifying the Sticker](#modifying-the-sticker) sections.
 
 Placing an order
 ================
-
 
 Order a PCB
 -----------
@@ -57,7 +62,6 @@ Order a Sticker
 
 Modifying
 ========
-
 
 Modifying the PCB
 -----------------
