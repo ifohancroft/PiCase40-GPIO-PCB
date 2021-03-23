@@ -14,7 +14,6 @@ Table of contents
     * [Pi Case 40 GPIO PCB](#pi-case-40-gpio-pcb)
     * [Table of contents](#table-of-contents)
     * [TODO](#todo)
-        * [PCB TODO](#pcb-todo)
 
 
 Unless otherwise noted, everything is released under CERN Open Hardware Licence Version 2 - Strongly Reciprocal.
