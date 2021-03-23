@@ -11,9 +11,19 @@ A replacement PCB (and a GPIO sticker) for the Pi Case 40, that fixes the revers
 Table of contents
 =================
 
+<!--ts-->
     * [Pi Case 40 GPIO PCB](#pi-case-40-gpio-pcb)
     * [Table of contents](#table-of-contents)
     * [TODO](#todo)
+        * [PCB TODO](#pcb-todo)
+        * [Sticker TODO](#sticker-todo)
+    * [Placing an order](#placing-an-order)
+        * [Order a PCB](#order-a-pcb)
+        * [Order a Sticker](#order-a-sticker)
+    * [Modifying](#modifying)
+        * [Modifying the PCB](#modifying-the-pcb)
+        * [Modifying the Sticker](#modifying-the-sticker)
+<!--te-->
 
 
 Unless otherwise noted, everything is released under CERN Open Hardware Licence Version 2 - Strongly Reciprocal.
