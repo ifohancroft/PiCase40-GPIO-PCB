@@ -23,16 +23,14 @@ Table of contents
    * [Modifying](#modifying)
       * [Modifying the PCB](#modifying-the-pcb)
       * [Modifying the Sticker](#modifying-the-sticker)
+   * [Created with Free Software](#created-with-free-software)
+   * [LICENSE](#license)
+   * [Support my work](#support-my-work)
+   * [Community repo](#community-repo)
 <!--te-->
-
-
-Unless otherwise noted, everything is released under CERN Open Hardware Licence Version 2 - Strongly Reciprocal.
-
-Everything has been created using Free and Open Source Software.
 
 TODO
 ====
-
 
 PCB TODO
 --------
@@ -114,4 +112,29 @@ All corners are 135 degrees, and the length of all of them except for the two on
 
 Modifying the sticker
 ---------------------
+
+Created with Free Software
+==========================
+
+Everything has been created with [Free Software](https://www.gnu.org/philosophy/free-sw.en.html).
+
+ - The PCB has been created with [KiCAD](https://kicad.org/) and [FreeCAD](https://www.freecadweb.org/) + the [KiCad StepUp Workbench](https://github.com/easyw/kicadStepUpMod)
+ - PCBReference.FCStd has been created with [FreeCAD](https://www.freecadweb.org/)
+ - The Sticker has been created with [Inkscape](https://inkscape.org/)
+ - The README has been written with [Vim](https://www.vim.org/)
+
+LICENSE
+=======
+
+Unless otherwise noted, everything is released under [CERN Open Hardware Licence Version 2 - Strongly Reciprocal](https://ohwr.org/project/cernohl/wikis/Documents/CERN-OHL-version-2).
+
+Support my work
+===============
+
+If you find this project useful, please, consider supporting my work, using the Sponsor button in the top right.
+
+Community repo
+==============
+
+Don't forget to check the community repo over at [https://github.com/Pi-Case-40-Community/PiCase40](https://github.com/Pi-Case-40-Community/PiCase40) that contains the community's creations for the Pi Case 40.
 
