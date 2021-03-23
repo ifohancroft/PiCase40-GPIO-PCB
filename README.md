@@ -1,45 +1,60 @@
-# Pi Case 40 GPIO PCB
+Pi Case 40 GPIO PCB
+===================
 
-A replacement PCB for Pi Case 40, that fixes the reversed GPIO Issue.
+A replacement PCB (and a GPIO sticker) for the Pi Case 40, that fixes the reversed GPIO Issue.
 
- - The PCB has been made with [KiCAD](https://kicad.org/) and is located under PiCase40/. It includes all the schematic symbols, footprints and 3D shapes it uses, in project-specific libraries, located under Library/
- - PCBReference.FCStd is a [FreeCAD](https://www.freecadweb.org/) file containing the PCB outline and component placements, that can later be used as a reference, when creating the PCB outline and placing the components in KiCAD. It is also the file, used to create the drawings for the [Tutorial](#Tutorial).
- - TutorialDrawings contains the images for the [Tutorial](#Tutorial)
- - A replacement GPIO sticker is located under Sticker/. sticker.svg is the source files, from it multi-sticker.svg is created by repeating the design and adding cut lines in-beteween. The green background is only for visibility while working and should be hidden before exporting. Finally, multi-sticker.png is the output file that should be used when creating an order. (Basically, the idea is that a single sticker is too small (height wise) for [StickerMule](https://www.stickermule.com/) to print. Also, I don't think their sticker sheets support transparent stickers, and they don't offer sample size purchases of them, but there is no need to pay €30 when all you need is one sticker. So, I created my own sticker sheet that can be ordered as one big transparent sticker and later cut to separate stickers.) 
+ - The PCB can be located under PiCase40/. It includes all the schematic symbols, footprints and 3D shapes it uses, in project-specific libraries, located under Library/.
+ - sticker.svg is the GPIO sticker.
+ - PCBReference.FCStd contains the PCB dimensions and component placements, as well as technical drawings for all the important size and space restrictions that need to be taken into consideration when modifying the PCB or creating a new one.
+ - TutorialDrawings/ contains the technical drawings from PCBReference.FCStd exported as png images, used later in the [Tutorial](#Tutorial) section.
+
+Table of contents
+=================
+
+<!--ts-->
+    * [Pi Case 40 GPIO PCB](#pi-case-40-gpio-pcb)
+    * [Table of contents](#table-of-contents)
+    * [TODO](#todo)
+        * [PCB TODO](#pcb-todo)
+<!--te-->
 
 Unless otherwise noted, everything is released under CERN Open Hardware Licence Version 2 - Strongly Reciprocal.
 
-## Placing an order
+Everything has been created using Free and Open Source Software.
 
- - PCB: Instructions will be added later when it is finalized.
- - Sticker: (Keep in-mind I still haven't received my order, so the stickers are basically untested. The writing may be too small or too ugly. When this warning dissapears, you can count that they end up as I have intended them to)
-  - Go to *https://www.stickermule.com/*
-  - Click on *Stickers* in the menu at the top
-  - Click *Clear Stickers*
-  - Click *Order Samples*
-  - Click *Order 10 clear stickers for $9* leaving the size to what it is.
-  - Click *Choose file...* and select ***multi-sticker.png***
-  - Click *Continue*
-  - Click *Checkout*
-  - Add or confirm your shipping and payment info and click *Place your order*
-  - Confirm the design during the proof approval stage, if everything looks good
-  - Cut on the inside of the black lines when you receive your stickers, not in the middle of them. I.e. there are meant to be no black lines in your final, cut stickers.
-  - TA DA! You now basically have 100 stickers for $9.
+TODO
+====
 
-## TODO
 
-### PCB
+PCB TODO
+--------
 
 1. Hand-solder the new PCB iteration when it and the components arrive, to make sure it all fits.
 2. Buy a Raspberry Pi and a HAT to test the PCB?
 3. Figure out a way to make the PCB include the male header riser, so it can be factory assembled by the board house.
 4. Print a final and pretty version of the PCB adding the instructions used for that, to the README and mark the project as complete
 
-### Sticker
+Sticker TODO
+-------
 
 1. Wait for the sticker to arrive and make sure it fits.
 
-## Tutorial
+Placing an order
+================
+
+
+Order a PCB
+-----------
+
+Order a Sticker
+---------------
+
+Modifying
+========
+
+
+Modifying the PCB
+-----------------
 
 In-case you want to modify this PCB, or create a new one from scratch, there are certain important dimensions you must know about:
 
@@ -88,3 +103,7 @@ Green (Loose Dimensions) - Dimensions that you can set to whatever you like (wit
  - T: Top mount hole center to top board edge - 2.5mm. As long as you leave some lip around the hole, you can have it couple of cm if you want, but if you have the slanted edge on the right, keep in mind U.
 
 All corners are 135 degrees, and the length of all of them except for the two on top around the top mount hole is 1.5mm.
+
+Modifying the sticker
+---------------------
+
