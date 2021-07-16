@@ -158,4 +158,4 @@ Community repo
 ==============
 
 Don't forget to check the community repo over at [https://github.com/Pi-Case-40-Community/PiCase40](https://github.com/Pi-Case-40-Community/PiCase40) that contains the community's creations for the Pi Case 40.
--
+
