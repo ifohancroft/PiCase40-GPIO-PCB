@@ -8,22 +8,13 @@ A replacement PCB (and a GPIO sticker) for the Pi Case 40, that fixes the revers
  - PCBReference.FCStd contains the PCB dimensions and component placements, as well as technical drawings for all the important size and space restrictions that need to be taken into consideration when modifying the PCB or creating a new one.
  - TutorialDrawings/ contains the technical drawings from PCBReference.FCStd exported as png images, used later in the [Tutorial](#Tutorial) section.
 
-## A small update
+## A small update - 13.02.2022
 
-I got the parts today and I tried to hand-solder everything. Here's how it went and a couple of notes:
-1. I'm an idiot! I soldered the male header flipped. Whatever, that's my error and it is easily solvable.
-2. The tactile switch/push button I bought from Adafruit (https://www.adafruit.com/product/1490) is too long. Even by just screwing the PCB to case, the button gets held pushed.
-3. Apparently I really suck at hand-soldering SMD components. I couldn't solder even a single pin of the female SMD header.
+I am sorry for the enourmous delay, but I am not dead and neither is the project. In-fact, it's this close to a finished, ready to purchase sticker and a PCB.
 
-So, the current state of things:
-1. I need to solder another male heather on another PCB to see how the header fits vertically in-relation to the header cutout on the case
-2. I need to find a better fitting button.
-3. I really need to find manifacturers who can print and assemble the PCB or come up with an alternative design, because here's the problem:
-The original PCB had a raiser pcb between the main PCB and the male header, to prop it up. And even with that raiser PCB the male header still wasn't vertically centered, but that's an easy fix, with just a thicker raiser PCB.
-If there are no manifacturers who can print both PCBs and do the assembly with the raiser PCB, it would need to be hand-soldered when you get it, which was never the idea.
+- I have received a new sticker and I will test it tomorrow, but I have a feeling this one would fit. Then I'd update the README.
 
-On the bright side, my PCB fits perfectly. I was mostly concerned about the center of the button but at first glance it fits as it should. Of course, I haven't tested with a Raspberry Pi as I don't own one.
-
+- I may have found a board house that can print and assemble the PCB. Ideally, if they can suggest a way the sandwitched PCB isn't needed, it would be even better. I will update as soon as I have anything concrete.
 
 Table of contents
 =================
@@ -52,21 +43,13 @@ TODO
 PCB TODO
 --------
 
- 1. Remove the rubber part of the case and better check the button position
- 2. Solder another male header and check how it fits vertically, so you know the thickness of the raiser PCB needed. Ideally, also test with a Raspberry Pi to make sure the current thickness of the main PCB is fine.
- 3. Figure out what kind of thickness the raiser PCB needs to be (see if you can get away with it being the same thickness as the main PCB) and order it.
- 4. Hand solder components and raiser PCB onto the current PCB iteration
- 5. See if there is a manifacturer who can print both PCBs as well as assemble them with manifacturer components or maybe come up with another design that doesn't require manual sordering
- 6. Test manifacturer assembled PCB or come up with another way to do it and test it.
- 7. Order the final and pretty version of the PCB
- 8. Maybe buy a Raspberry Pi and a HAT to test the PCB?
- 9. Update the [Order a PCB](#order-a-pcb) section.
+- Wait to hear back from the board house and go from there.
 
 Sticker TODO
 -------
 
-1. Order a new sticker iteration and test it.
-2. If the new sticker prints and fits well, update the [Order a Sticker](#order-a-sticker) and the [Modifying the Sticker](#modifying-the-sticker) sections.
+1. Test the new sticker
+2. Update the README appropriately, depending on whether the sticker fits or not.
 
 Placing an order
 ================
